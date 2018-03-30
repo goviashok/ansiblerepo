@@ -3,4 +3,6 @@
   tasks:
     - name: just an echo
       command: echo " hello Anisble"
+      register: captu_echo
+    - debug: msg {{captu_echo}}
 ...
