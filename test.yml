@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: just an echo
+      command: echo " hello Anisble"
+...
