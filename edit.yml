@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+    - replace:
+	    path: /etc/nginx/sites-available/Default
+	    regexp: '(\s+)listen\.80(\s+.*)?$'
+	    replace: '\listen.85.\2'
+	    backup: yes
+...
