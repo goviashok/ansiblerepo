@@ -2,7 +2,7 @@
 - hosts: localhost
   tasks:
     - name: just an echo
-      command: echo " hello Anisble"
+      command: echo " hello Anisbleeeeeee"
       register: captu_echo
     - debug: msg {{captu_echo}}
 ...
